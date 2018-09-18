@@ -15,3 +15,9 @@ xhr.addEventListener("load", function(e){
     console.log(photoList);
 });
 xhr.send();
+
+//送信ボタンのテキストを取得する
+$("#sendButton").on("click", function(){
+    var sentText = $("#sendButtonIn").val();
+    console.log(sentText);
+})
